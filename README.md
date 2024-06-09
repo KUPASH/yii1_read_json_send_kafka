@@ -1,6 +1,6 @@
-Для того чтобы выполнить данное задание нужно установить Kafka и Zookeeper.
-Затем мы устанавливаем PHP клиент php-rdkafka для Kafka и добавляем расширение в наш файл php.ini: extension=rdkafka.so
-Запускаем Zookeeper: bin/zookeeper-server-start.sh config/zookeeper.properties
+Для того чтобы выполнить данное задание нужно установить Kafka и Zookeeper.  
+Затем мы устанавливаем PHP клиент php-rdkafka для Kafka и добавляем расширение в наш файл php.ini: extension=rdkafka.so  
+Запускаем Zookeeper: bin/zookeeper-server-start.sh config/zookeeper.properties  
 Запускаем в другой вкладке Kafka: bin/kafka-server-start.sh config/server.properties
 
 Два JSON-файла уже добавлены мной в testdrive/protected/data
